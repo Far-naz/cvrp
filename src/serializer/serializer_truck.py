@@ -1,0 +1,18 @@
+from src.data_model.truck import Truck
+import pandas as pd
+from typing import Dict
+
+
+def create_truck_from_data_frame(df: pd.DataFrame) -> Dict[str,Truck]:
+    truck_list: Dict[str, Truck] = {}
+    for _, row in df.iterrows():
+        truck_instance = Truck(
+            id=row['id'],
+            type=row['type'],
+            inner_size=row['inner_size'],
+            capacity=row['capacity'],
+            cost=row['cost'],
+            speed=row['speed']
+        )
+        truck_list[truck_instance.id] = truck_instance
+    return truck_list

@@ -1,0 +1,46 @@
+from pydantic import BaseModel
+from enum import Enum
+from src.data_model.factory import Factory
+from datetime import datetime, date
+
+
+class DangerType(Enum):
+    TYPE_1 = 0
+    TYPE_2 = 1
+    NOT_DANGEROUS = 3
+    
+
+
+class Order(BaseModel):
+    id: int
+    material_id: int
+    item_id: int
+    source: Factory
+    destination: Factory
+    available_date_local: datetime
+    due_date_local: datetime
+    danger_type: DangerType
+    area_size: float
+    weight: float
+
+    @property
+    def available_date(self) -> float:
+        return self.available_date_local.date()
+    
+    @property
+    def availale_date_str(self) -> str:
+        return self.available_date_local.strftime('%Y-%m-%d')
+
+    @property
+    def due_date(self) -> date:
+        return self.due_date_local.date()
+    
+    @property
+    def due_date_str(self) -> str:
+        return self.due_date_local.strftime('%Y-%m-%d')
+    
+
+    def __str__(self):
+        return f"Order(id={self.id})"
+
+    
