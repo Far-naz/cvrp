@@ -6,12 +6,12 @@ import pytest
 @pytest.fixture
 def sample_truck_data_frame():
     data = {
-        'id': [1],
-        'type': 120,
-        'inner_size': [100],
-        'capacity': [2000],
-        'cost': [150],
-        'speed': [80]
+        'Id': [1],
+        'TruckTypeMeter': 120,
+        'TruckSizeMeterSquared': [100],
+        'CapacityPerKg': [2000],
+        'CostPerKg': [150],
+        'SpeedKmPerH': [80]
     }
     return pd.DataFrame(data)
 

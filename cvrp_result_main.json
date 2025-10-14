@@ -1,0 +1,1002 @@
+{
+  "2022-05-04": {
+    "routes": [
+      {
+        "truck": {
+          "id": 1,
+          "type": 12.5,
+          "inner_size": 30.25,
+          "capacity": 5000.0,
+          "cost": 2.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 15,
+            "name": "City_15",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 17,
+            "name": "City_17",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 19,
+            "name": "City_19",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "04:18",
+          "08:29",
+          "11:02"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          1372.9979999999998,
+          138.408,
+          191.21699999999998,
+          1532.6415
+        ],
+        "travel_distance": 2156.843,
+        "travel_time": 53.921074999999995,
+        "total_stops": 5,
+        "total_travel_cost": 4313.686,
+        "total_handling_cost": 3.0
+      },
+      {
+        "truck": {
+          "id": 0,
+          "type": 16.5,
+          "inner_size": 40.25,
+          "capacity": 10000.0,
+          "cost": 3.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 49,
+            "name": "City_49",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 50,
+            "name": "City_50",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 38,
+            "name": "City_38",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 37,
+            "name": "City_37",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          3.0,
+          2.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "03:20",
+          "14:45",
+          "17:27",
+          "07:19"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          9.015,
+          80.742,
+          625.0500000000001,
+          101.47800000000001,
+          771.8205
+        ],
+        "travel_distance": 1058.737,
+        "travel_time": 26.468425000000003,
+        "total_stops": 4,
+        "total_travel_cost": 3176.2110000000002,
+        "total_handling_cost": 4.0
+      },
+      {
+        "truck": {
+          "id": 2,
+          "type": 9.6,
+          "inner_size": 20.93,
+          "capacity": 2000.0,
+          "cost": 1.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 25,
+            "name": "City_25",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 43,
+            "name": "City_43",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 59,
+            "name": "City_59",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "23:08",
+          "13:29",
+          "08:18"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          1034.163,
+          1268.853,
+          800.25,
+          2509.1565
+        ],
+        "travel_distance": 3741.615,
+        "travel_time": 93.540375,
+        "total_stops": 5,
+        "total_travel_cost": 3741.615,
+        "total_handling_cost": 3.0
+      }
+    ],
+    "total_cost": 11241.511999999999,
+    "travel_cost": 11231.511999999999,
+    "handling_cost": 10.0,
+    "is_success": true
+  },
+  "2022-05-05": {
+    "routes": [
+      {
+        "truck": {
+          "id": 1,
+          "type": 12.5,
+          "inner_size": 30.25,
+          "capacity": 5000.0,
+          "cost": 2.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 50,
+            "name": "City_50",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 24,
+            "name": "City_24",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "19:09",
+          "14:36"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          90.126,
+          1029.786,
+          1106.538
+        ],
+        "travel_distance": 1484.3,
+        "travel_time": 37.1075,
+        "total_stops": 2,
+        "total_travel_cost": 2968.6,
+        "total_handling_cost": 2.0
+      },
+      {
+        "truck": {
+          "id": 0,
+          "type": 16.5,
+          "inner_size": 40.25,
+          "capacity": 10000.0,
+          "cost": 3.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 49,
+            "name": "City_49",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "02:11"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          9.015,
+          11.184000000000001
+        ],
+        "travel_distance": 13.466000000000001,
+        "travel_time": 0.33665,
+        "total_stops": 1,
+        "total_travel_cost": 40.398,
+        "total_handling_cost": 1.0
+      },
+      {
+        "truck": {
+          "id": 2,
+          "type": 9.6,
+          "inner_size": 20.93,
+          "capacity": 2000.0,
+          "cost": 1.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 26,
+            "name": "City_26",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 35,
+            "name": "City_35",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 14,
+            "name": "City_14",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "18:40",
+          "04:28",
+          "02:12"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          1658.073,
+          1000.6814999999999,
+          528.1935000000001,
+          2683.4535
+        ],
+        "travel_distance": 3913.601,
+        "travel_time": 97.840025,
+        "total_stops": 5,
+        "total_travel_cost": 3913.601,
+        "total_handling_cost": 3.0
+      }
+    ],
+    "total_cost": 6928.599,
+    "travel_cost": 6922.599,
+    "handling_cost": 6.0,
+    "is_success": true
+  },
+  "2022-05-06": {
+    "routes": [
+      {
+        "truck": {
+          "id": 1,
+          "type": 12.5,
+          "inner_size": 30.25,
+          "capacity": 5000.0,
+          "cost": 2.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 38,
+            "name": "City_38",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 25,
+            "name": "City_25",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 10,
+            "name": "City_10",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          1.999999972519103,
+          0.9999999726086299,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "10:22",
+          "00:37",
+          "07:52"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          701.9085,
+          502.72349999999994,
+          794.5559999999999,
+          1815.3000000000002
+        ],
+        "travel_distance": 2542.992,
+        "travel_time": 63.5748,
+        "total_stops": 5,
+        "total_travel_cost": 5085.984,
+        "total_handling_cost": 3.0
+      },
+      {
+        "truck": {
+          "id": 0,
+          "type": 16.5,
+          "inner_size": 40.25,
+          "capacity": 10000.0,
+          "cost": 3.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 49,
+            "name": "City_49",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 50,
+            "name": "City_50",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          1.9999999541323625,
+          0.9999999993015081,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "03:20",
+          "05:51"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          9.015,
+          80.742,
+          90.63
+        ],
+        "travel_distance": 120.25800000000001,
+        "travel_time": 3.00645,
+        "total_stops": 2,
+        "total_travel_cost": 360.774,
+        "total_handling_cost": 2.0
+      },
+      {
+        "truck": {
+          "id": 2,
+          "type": 9.6,
+          "inner_size": 20.93,
+          "capacity": 2000.0,
+          "cost": 1.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 19,
+            "name": "City_19",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 48,
+            "name": "City_48",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 57,
+            "name": "City_57",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "19:23",
+          "15:41",
+          "13:16"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          1521.6975,
+          1043.6325000000002,
+          1157.4075,
+          2675.211
+        ],
+        "travel_distance": 4265.299,
+        "travel_time": 106.632475,
+        "total_stops": 5,
+        "total_travel_cost": 4265.299,
+        "total_handling_cost": 3.0
+      }
+    ],
+    "total_cost": 9720.057,
+    "travel_cost": 9712.057,
+    "handling_cost": 8.0,
+    "is_success": true
+  },
+  "2022-05-07": {
+    "routes": [
+      {
+        "truck": {
+          "id": 1,
+          "type": 12.5,
+          "inner_size": 30.25,
+          "capacity": 5000.0,
+          "cost": 2.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 48,
+            "name": "City_48",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 57,
+            "name": "City_57",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "21:17",
+          "18:52"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          1527.357,
+          1157.4075,
+          2675.211
+        ],
+        "travel_distance": 3573.317,
+        "travel_time": 89.332925,
+        "total_stops": 4,
+        "total_travel_cost": 7146.634,
+        "total_handling_cost": 2.0
+      },
+      {
+        "truck": {
+          "id": 0,
+          "type": 16.5,
+          "inner_size": 40.25,
+          "capacity": 10000.0,
+          "cost": 3.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 49,
+            "name": "City_49",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 50,
+            "name": "City_50",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 24,
+            "name": "City_24",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          3.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "03:20",
+          "21:30",
+          "16:57"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          9.015,
+          80.742,
+          1029.786,
+          1106.538
+        ],
+        "travel_distance": 1484.054,
+        "travel_time": 37.10135,
+        "total_stops": 3,
+        "total_travel_cost": 4452.162,
+        "total_handling_cost": 3.0
+      },
+      {
+        "truck": {
+          "id": 2,
+          "type": 9.6,
+          "inner_size": 20.93,
+          "capacity": 2000.0,
+          "cost": 1.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 25,
+            "name": "City_25",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 26,
+            "name": "City_26",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 4,
+            "name": "City_4",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "12:37",
+          "07:33",
+          "05:14"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          1034.163,
+          637.032,
+          1076.9295,
+          2680.6995
+        ],
+        "travel_distance": 3619.2160000000003,
+        "travel_time": 90.4804,
+        "total_stops": 5,
+        "total_travel_cost": 3619.2160000000003,
+        "total_handling_cost": 3.0
+      }
+    ],
+    "total_cost": 15226.012,
+    "travel_cost": 15218.012,
+    "handling_cost": 8.0,
+    "is_success": true
+  },
+  "2022-05-08": {
+    "routes": [
+      {
+        "truck": {
+          "id": 1,
+          "type": 12.5,
+          "inner_size": 30.25,
+          "capacity": 5000.0,
+          "cost": 2.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 48,
+            "name": "City_48",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 43,
+            "name": "City_43",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "17:19",
+          "00:37"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          1527.357,
+          919.5029999999999,
+          1817.7675
+        ],
+        "travel_distance": 2843.085,
+        "travel_time": 71.077125,
+        "total_stops": 5,
+        "total_travel_cost": 5686.17,
+        "total_handling_cost": 2.0
+      },
+      {
+        "truck": {
+          "id": 0,
+          "type": 16.5,
+          "inner_size": 40.25,
+          "capacity": 10000.0,
+          "cost": 3.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 50,
+            "name": "City_50",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 38,
+            "name": "City_38",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 37,
+            "name": "City_37",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 24,
+            "name": "City_24",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 10,
+            "name": "City_10",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          2.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "12:25",
+          "15:06",
+          "22:08",
+          "13:28",
+          "20:44"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          90.126,
+          625.0500000000001,
+          101.47800000000001,
+          362.235,
+          860.058,
+          1815.3000000000002
+        ],
+        "travel_distance": 2569.498,
+        "travel_time": 64.23745,
+        "total_stops": 5,
+        "total_travel_cost": 7708.494000000001,
+        "total_handling_cost": 5.0
+      },
+      {
+        "truck": {
+          "id": 2,
+          "type": 9.6,
+          "inner_size": 20.93,
+          "capacity": 2000.0,
+          "cost": 1.0,
+          "speed": 40.0
+        },
+        "route": [
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          },
+          {
+            "id": 55,
+            "name": "City_55",
+            "is_depot": null,
+            "location": null
+          },
+          {
+            "id": 61,
+            "name": "City_61",
+            "is_depot": true,
+            "location": null
+          }
+        ],
+        "unload_at_node": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "times_at_node": [
+          "01:00",
+          "11:05"
+        ],
+        "travel_times_at_node": [
+          0.0,
+          3425.8710000000005,
+          3425.2155
+        ],
+        "travel_distance": 4567.391,
+        "travel_time": 114.184775,
+        "total_stops": 5,
+        "total_travel_cost": 4567.391,
+        "total_handling_cost": 1.0
+      }
+    ],
+    "total_cost": 17970.055,
+    "travel_cost": 17962.055,
+    "handling_cost": 8.0,
+    "is_success": true
+  }
+}

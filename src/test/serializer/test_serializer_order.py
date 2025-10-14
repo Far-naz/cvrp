@@ -9,21 +9,22 @@ from src.serializer.serialize_order import create_order_from_data_frame,get_fact
 @pytest.fixture
 def factories():
     return {
-        "Factory A": Factory(id=1, name="Factory A", location=(40.7128, -74.0060)),
-        "Factory B": Factory(id=2, name="Factory B", location=(34.0522, -118.2437)),
+        "Factory_1": Factory(id=1, name="Factory_1", location=(40.7128, -74.0060)),
+        "Factory_2": Factory(id=2, name="Factory_2", location=(34.0522, -118.2437)),
     }
 
 
 @pytest.fixture
 def order_df():
     data = {
-        "Material_ID": [101],
-        "Item_ID": [500],
-        "Source": ["Factory A"],
-        "Destination": ["Factory B"],
-        "Available_Time": ["4/5/22 23:59"],
-        "Deadline": ["4/11/22 23:59"],
-        "Dangerous": ['type_1'],
+        "Order_ID": ["1"],
+        "Material_ID": ["101"],
+        "Item_ID": ["500"],
+        "Source": ["Factory_1"],
+        "Destination": ["Factory_2"],
+        "Available_Time": ["4/5/2022 23.59"],
+        "Deadline": ["4/11/2022 23.59"],
+        "Danger_Type": ['type_1'],
         "Area": [15.5],
         "Weight": [120.0],
     }
@@ -44,12 +45,12 @@ def test_create_order_from_data_frame(order_df, factories):
     assert order.available_date == datetime(2022, 5, 4).date()
     assert order.due_date == datetime(2022, 11, 4).date()
 
-    assert order.source.name == "Factory A"
-    assert order.destination.name == "Factory B"
+    assert order.source.name == "Factory_1"
+    assert order.destination.name == "Factory_2"
 
 
-    assert order.area_size == 15.5 
-    assert order.weight == 120.0 /100000
+    assert order.area_size == 15.5 / 10000
+    assert order.weight == 120.0 /1000000
 
 
     assert order.danger_type == DangerType.TYPE_1
@@ -60,7 +61,7 @@ def test_get_factory_list_from_order_data_frame():
     data = {
         "Source": ["Factory_1", "Factory_2", "Factory_3"],
         "Destination": ["Factory_2", "Factory_4", "Factory_1"],
-        "Material_ID": [1, 2, 3],
+        "Material_ID": ["1", "2", "3"],
     }
     df = pd.DataFrame(data)
 
@@ -80,4 +81,5 @@ def test_get_factory_list_from_order_data_frame():
     assert len(ids) == len(set(ids))
     assert all(isinstance(i, int) for i in ids)
 
-    assert min(ids) == 0
+    assert min(ids) == 1
+    assert max(ids) == 4

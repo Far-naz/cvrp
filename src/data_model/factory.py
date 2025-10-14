@@ -23,4 +23,4 @@ class Factory(BaseModel):
         return hash((self.id, self.name, self.is_depot))
     
 def create_depot_factory() -> Factory:
-    return Factory(id=config.DEPOT_FACTORY_ID, name="Depot", is_depot=True)
+    return Factory(id=config.DEPOT_ID, name=f"City_{config.DEPOT_ID}", is_depot=True)

@@ -14,14 +14,14 @@ class Distance(BaseModel):
         return distance_m / 1000
 
 
-def build_distance_matrix(distances: List[Distance], factories: List[Factory]) -> List[List[float]]:
+def build_distance_matrix(distances: List[Distance], factories: list[Factory]) -> List[List[float]]:
     """
     Convert list of Distance objects into a 2D distance matrix
     Index of factories in the matrix matches their position in 'factories' list.
     """
     n = len(factories)
     # Map factory id to matrix index
-    factory_idx = {f.id: i for i, f in enumerate(factories)}
+    factory_idx = {factory.id: idx for idx, factory in enumerate(factories)}
 
     # Initialize matrix with large value for unreachable pairs
     matrix = np.full((n, n), np.inf)

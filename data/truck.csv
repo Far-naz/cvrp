@@ -1,4 +1,4 @@
-TruckTypeMeter,TruckSizeMeterSquared,CapacityPerKg,CostPerKg,SpeedKmPerH
-16.5,,10000,3,40
-12.5,,5000,2,40
-9.6,,2000,1,40
+Id,TruckTypeMeter,TruckSizeMeterSquared,CapacityPerKg,CostPerKg,SpeedKmPerH
+0,16.5,40.25,10000,3,40.0
+1,12.5,30.25,5000,2,40.0
+2,9.6,20.93,2000,1,40.0

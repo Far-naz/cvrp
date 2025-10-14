@@ -12,9 +12,9 @@ class DangerType(Enum):
 
 
 class Order(BaseModel):
-    id: int
-    material_id: int
-    item_id: int
+    id: str
+    material_id: str
+    item_id: str
     source: Factory
     destination: Factory
     available_date_local: datetime
@@ -28,8 +28,16 @@ class Order(BaseModel):
         return self.available_date_local.date()
     
     @property
-    def availale_date_str(self) -> str:
+    def available_clock(self) -> float:
+        return self.available_date_local.hour + self.available_date_local.minute / 60.0
+    
+    @property
+    def available_date_str(self) -> str:
         return self.available_date_local.strftime('%Y-%m-%d')
+    
+    @property
+    def due_clock(self) -> float:
+        return self.due_date_local.hour + self.due_date_local.minute / 60.0
 
     @property
     def due_date(self) -> date:

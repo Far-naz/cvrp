@@ -11,9 +11,9 @@ def test_order_initialization():
     due_date_local = datetime(2021, 7, 1, 10, 0)
 
     order_instance = Order(
-        id=100,
-        material_id=200,
-        item_id=300,
+        id="100",
+        material_id="200",
+        item_id="300",
         source=source_factory,
         destination=destination_factory,
         available_date_local=available_date_local,
@@ -23,9 +23,9 @@ def test_order_initialization():
         weight=1000.0
     )
     
-    assert order_instance.id == 100
-    assert order_instance.material_id == 200
-    assert order_instance.item_id == 300
+    assert order_instance.id == "100"
+    assert order_instance.material_id == "200"
+    assert order_instance.item_id == "300"
     assert order_instance.source == source_factory
     assert order_instance.destination == destination_factory
     assert order_instance.available_date_local == available_date_local
@@ -41,9 +41,9 @@ def test_order_str_representation():
     destination_factory = Factory(id=2, name="Factory B", location=(98.76, 54.32))
     
     order_instance = Order(
-        id=100,
-        material_id=200,
-        item_id=300,
+        id="100",
+        material_id="200",
+        item_id="300",
         source=source_factory,
         destination=destination_factory,
         available_date_local=1622548800.0,

@@ -1,1 +1,10 @@
-DEPOT_ID = 'City_61'
+DEPOT_ID = 61
+MAX_STOPS = 5
+SERVICE_TIME_PER_STOP = 60  # in minutes
+SERVICE_COST_PER_STOP = 1  # in currency units
+ORDER_SMALL_CSV = 'data/order_small.csv'
+ORDER_SMALL_DATE = "%Y-%m-%d %H:%M:%S"
+ORDER_LARGE_DATE = "%d/%m/%Y %H.%M"
+ORDER_LARGE_CSV = 'data/order_large_main.csv'
+TRUCK_CSV = 'data/truck.csv'
+DISTANCE_CSV = 'data/distance.csv'
