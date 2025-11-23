@@ -2,7 +2,6 @@ from src.data_model.assignment_Input import AssignmentInput
 from src.business_model.mip.assignment_model.assignement_demands import assign_orders
 from src.business_model.mip.capacited_vrp_model.capacited_vrp_model import solve_cvrp   
 from src.data_model.assignment_output import AssignmentOutput
-from src.data_model.cvrp_input import CVRPInput
 from src.data_model.cvrp_output import CVRPOutput, TruckRoute
 from src.serializer.serialize_cvrp_input import create_cvrp_input_from_assignment_output
 
