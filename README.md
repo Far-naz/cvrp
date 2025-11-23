@@ -1,4 +1,4 @@
-# cvrp
+# multi-period cvrp
 Your stakeholder is a materials vendor to a company that has multiple factories around the country. The
 vendor wants to schedule the optimal delivery routes to ensure that the orders get delivered with the
 lowest possible cost.
