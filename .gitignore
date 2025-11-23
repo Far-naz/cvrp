@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+src/data_model/__pycache__/
+src/serialier/__pycache__/
+src/business_model/mip/__pycache__/
+src/business_model/heuristic/__pycache__/
+test/__pycache__/
+test/business_model/__pycache__/
+test/data_model/__pycache__/
+test/serialier/__pycache__/
